@@ -6,7 +6,7 @@ public class Circulo extends FiguraGeometrica {
     
     public Circulo(int raio) {
         if (raio <= 0) {
-            throw new ValorInvalidoException("O raio deve ser maior que zero.");
+            throw new ValorInvalidoException("O raio deve ser maior que 0");
         }
         this.raio = raio;
     }
